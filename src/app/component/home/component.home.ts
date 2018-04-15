@@ -3,6 +3,8 @@ import {Component, OnInit} from '@angular/core';
 @Component({
 	selector:'home',
 	templateUrl:'./component.home.html'
+	//styleUrls: ['./component.home.css']
+
 
 })
 

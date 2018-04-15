@@ -8,9 +8,11 @@ import {Component, OnInit} from '@angular/core';
 
 export class EnterpriseComponent implements OnInit{
 	public title:string;
+	
 
 	constructor(){
 		this.title='Bienvenido a NGSocial'
+
 	}
 
 	ngOnInit(){
