@@ -1,12 +1,12 @@
 import {Component, OnInit} from '@angular/core';
 
 @Component({
-	selector:'enterprise',
-	templateUrl:'./enterprise.component.html'
+	selector:'contact',
+	templateUrl:'./component.contact.html'
 
 })
 
-export class EnterpriseComponent implements OnInit{
+export class ContactComponent implements OnInit{
 	public title:string;
 
 	constructor(){
@@ -14,6 +14,6 @@ export class EnterpriseComponent implements OnInit{
 	}
 
 	ngOnInit(){
-		console.log('enterprise.component cargado!!');
+		console.log('component.contact cargado!!');
 	}
 }

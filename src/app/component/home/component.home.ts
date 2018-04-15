@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 
 @Component({
 	selector:'home',
-	templateUrl:'./home.component.html'
+	templateUrl:'./component.home.html'
 
 })
 
@@ -14,6 +14,6 @@ export class HomeComponent implements OnInit{
 	}
 
 	ngOnInit(){
-		console.log('home.component cargado!!');
+		console.log('component.home cargado!!');
 	}
 }

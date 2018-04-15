@@ -3,9 +3,9 @@ import {Routes, RouterModule} from '@angular/router';
 
 //Componentes
 import { AppComponent } from './app.component';
-import {EnterpriseComponent} from './component/enterprise/enterprise.component';
-import {ContactComponent} from './component/contact/contact.component';
-import {HomeComponent} from './component/home/home.component';
+import {EnterpriseComponent} from './component/enterprise/component.enterprise';
+import {ContactComponent} from './component/contact/component.contact';
+import {HomeComponent} from './component/home/component.home';
 
 //constante
 const appRoutes:Routes=[
