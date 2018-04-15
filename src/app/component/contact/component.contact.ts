@@ -2,7 +2,8 @@ import {Component, OnInit} from '@angular/core';
 
 @Component({
 	selector:'contact',
-	templateUrl:'./component.contact.html'
+	templateUrl:'./component.contact.html',
+  	styleUrls: ['../../app.component.scss']
 
 })
 
